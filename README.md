@@ -9,6 +9,8 @@ Script to convert JSON to Kotlin declaration of `JsonElement` using the Kotlin `
 
 Make sure to `import kotlinx.serialization.json.*` in your Kotlin source code.
 
+> :warning: **The output is not correctly indented. Use your IDE to fix indentation.**
+
 ## Example
 
 Example input:
@@ -26,7 +28,7 @@ Example input:
 }
 ```
 
-Example output:
+Example output (after indentation correction):
 
 ```kotlin
 buildJsonObject {
